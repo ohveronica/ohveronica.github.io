@@ -1,0 +1,44 @@
+
+body{
+  margin:0;  
+  padding:0;
+
+}
+.outer{
+   text-align: center;
+   padding:0px;
+}
+.page{
+   width:1000px;
+   height:95vh;
+   display: inline-block;
+   text-align:left;
+ 
+   ;
+}
+a{
+  color:black;
+  font-size:16px;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right:50px;
+}
+
+a:hover {
+  color:#7ec1e8;  
+ }
+  a:active {
+  color:#CCC;
+}
+.nav{
+  font-family: sans-serif;
+   margin-left:30px;
+   margin-top:30px;
+   text-align: left;
+
+}
+
+  
+.navhere{
+  color:#1d7d88;
+}
