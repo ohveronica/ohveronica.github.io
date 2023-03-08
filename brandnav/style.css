@@ -1,0 +1,193 @@
+body{
+	margin:0;
+	padding:0;
+	font-family: 'Work Sans', sans-serif;
+	font-weight:400;
+	font-size: 15px
+
+	
+}
+
+.outer{
+	text-align: center;
+}
+
+
+.page{
+	position:relative;
+	margin-top:10px;
+	background-color: #FFF;
+	max-width: 1200px;
+	width: 100%;
+	height:99vh;
+	display: inline-block;
+	text-align:left;
+}
+.menu{
+		display: none;
+	}
+
+#menu img{
+	width: 30px;
+	cursor:pointer;
+}
+
+#menuoverlay{
+	position:absolute;
+	top:0px;
+	background-color: grey;
+	width:150px;
+	display:none;
+	text-align: left;
+	padding:30px;
+	font-weight:400;
+	font-size: 15px;
+	height:300px;
+	color: #fff;
+	
+	
+}
+
+#close{
+	position:absolute;
+	top:10px;
+	left:10px;
+	font-size: 30px;
+	cursor:pointer;
+}
+
+.innermenu{
+	margin-top:50px;
+
+}
+.innermenu div{
+
+	padding-bottom:30px;
+}
+
+.topofpage{
+	display:flex;
+	flex-direction: row;
+	flex-wrap:nowrap;
+	align-items:center;
+	justify-content:flex-start;
+	height:80px;
+	background-color: #fff;
+}
+
+.logo{
+	margin:20px;
+	width:170px;
+	
+}
+
+.nikelogo{
+	margin-top:-7px;
+	max-width:170px;
+}
+
+.navbar{
+	display:flex;
+	flex-direction: row;
+	flex-wrap:nowrap;
+	align-items:center;
+	justify-content:flex-start;
+	flex-grow:1;
+	text-align: left;
+}
+
+.nav{
+	padding-right:7px;
+}
+
+.nikehome{
+	margin-left:auto;
+	font-weight:600;
+	
+}
+
+.search{
+	max-width:120px;
+	align-content:flex-end;
+		
+}
+.search_img{
+	max-width:100%;}
+
+
+a{
+	color:#000;
+	text-decoration: none;
+	font-weight:600;
+	margin-left: 10px;
+	
+	
+}
+a:hover{
+	color:gray;
+}
+
+
+.headline {
+	font-weight:600;
+	font-size:35px;
+	text-transform:capitalize;
+	color:#fff;
+		}
+.content {
+	font-weight:400;
+	font-size: 15px;
+	color:#000;
+	text-align: center;
+		}
+
+@media screen and (max-width:850px){
+	
+
+	.page{
+		max-width:480px;
+		
+	}
+	.menu{
+		display: inline-block;
+		width:50px;
+	}
+	#menu img{
+		width:50px;
+		padding:10px;
+	}
+	.logo{
+		display: none;
+	}
+	.navbar{
+		display: none;
+	}
+	.search{
+		display:none;
+	}
+}
+
+@media screen and (min-width:850px) and (max-width:1250px){
+	#menu img{
+display:none;
+	}
+	.page{
+		max-width:800px;
+	}
+	.search{display:block;
+	}
+	
+}
+
+@media screen and (min-width:1450px){
+	#menu img{
+display:none;
+	}
+
+	.page{
+		max-width:1400px;
+		
+	}
+	
+}
+
